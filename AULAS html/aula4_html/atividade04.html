@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Minhas Séries Favoritas</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #000, #333);
+    color: white;
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.lista-series {
+    max-width: 1000px;
+    margin: auto;
+    list-style: none;
+}
+
+.serie {
+    display: flex;
+    gap: 25px;
+    background: #161616;
+    border: 1px solid #444;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+
+.serie:hover {
+    transform: translateY(-5px);
+    background: #222;
+}
+
+.serie img {
+    width: 180px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.informacoes h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.informacoes p {
+    font-size: 18px;
+    color: #ccc;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.botao {
+    background: #555;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.botao:hover {
+    background: blue;
+    color: white;
+}
+
+@media(max-width:700px){
+    .serie {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .botoes {
+        justify-content: center;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<h1>🎬 Minhas Séries Favoritas</h1>
+
+<ul class="lista-series">
+  <li class="serie">
+    <img src="./img/PT-BR_LCDP_S5_Main_Vertical_RGB_PRE.jpg" alt="La Casa de Papel">
+
+    <div class="informacoes">
+      <h2>La Casa de Papel</h2>
+      <p>
+        La Casa de Papel é uma série de crime que acompanha um grupo de ladrões em uma série de assaltos elaborados. Enquanto planejam e executam seus golpes, eles enfrentam desafios, traições e consequências que testam sua lealdade e moral.
+      </p>
+
+      <div class="botoes">
+        <a class="botao" href="https://pt.wikipedia.org/wiki/La_casa_de_papel" target="_blank">
+          Ver mais
+        </a>
+        <a class="botao" href="https://youtu.be/iS5xXr-GOnM?si=bH1Gj97RYEZ6_eof" target="_blank">
+          Vídeo
+        </a>
+        <footer>
+    <p>&copy; 2026, João Gabriel Dantas</p>
+    <footer>
+      </div>
+    </div>
+  </li>
+
+  <li class="serie">
+    <img src="./img/images.jpg" alt="Outer Banks">
+
+    <div class="informacoes">
+      <h2>Outer Banks</h2>
+      <p>
+        Outer Banks é uma série de aventura e mistério que acompanha um grupo de amigos em busca de um tesouro lendário. Enquanto enfrentam perigos, segredos e conflitos entre ricos e pobres, eles descobrem que a amizade e a lealdade são tão importantes quanto a própria caça ao tesouro.
+      </p>
+
+      <div class="botoes">
+        <a class="botao" href="https://pt.wikipedia.org/wiki/Outer_Banks_(s%C3%A9rie_de_televis%C3%A3o)" target="_blank">
+          Ver mais
+        </a>
+        <a class="botao" href="https://youtu.be/SqLHo7bIddY?si=dVx7ZOAzRaqZ5R4c" target="_blank">
+          Vídeo
+        </a>
+        <footer>
+    <p>&copy; 2026, João Gabriel Dantas</p>
+    <footer>
+      </div>
+    </div>
+  </li>
+
+  <li class="serie">
+    <img src="./img/compose.webp" alt="O11ZE">
+
+    <div class="informacoes">
+      <h2>O11ZE</h2>
+      <p>
+        O11ZE é uma série de drama e esporte que acompanha Gabo, um jovem talentoso que sonha em se tornar jogador de futebol. Ao entrar para uma academia de alto rendimento, ele enfrenta desafios, faz novas amizades e aprende importantes lições sobre trabalho em equipe, superação e dedicação.
+      </p>
+
+      <div class="botoes">
+        <a class="botao" href="https://pt.wikipedia.org/wiki/O11ZE" target="_blank">
+          Ver mais
+        </a>
+        <a class="botao" href="https://www.youtube.com/watch?v=Ow3TL4XS20Y" target="_blank">
+          Vídeo
+        </a>
+        <footer>
+    <p>&copy; 2026, João Gabriel Dantas</p>
+    <footer>
+      </div>
+  </li>
+</ul>
+
+</body>
+</html>
