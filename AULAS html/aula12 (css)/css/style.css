@@ -1,0 +1,42 @@
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: cornflowerblue;
+
+    /* border adiciona bordas ao quadrado */
+    border: 5px solid black;
+
+    /* padding aumenta o espaço entre texto e margem da box */
+    padding: 50px;
+
+    /* margin cria uma margem em relação a borda do site */
+    margin: 30px;
+}
+
+.box2{
+
+    width: 200px;
+    height: 100px;
+    background-color: rgb(0, 255, 221);
+
+    /* cria uma margem entre o texto e a borda */
+    padding-top: 10px;
+
+    /* border adiciona bordas ao quadrado */
+    border: 5px solid black;
+
+    /* arredonda as bordas */
+    border-radius: 20px;
+
+        /* padding top aumenta o espaço entre texto e margem da box apenas na direita */
+    padding-right: 40px;
+
+    /* padding left aumenta o espaço entre texto e margem da box apenas na esquerda */
+    padding-left: 25px;
+
+    /* padding left aumenta o espaço entre texto e margem da box apenas em baixo */
+    padding-bottom: 20px;
+}
+    
+
+    
